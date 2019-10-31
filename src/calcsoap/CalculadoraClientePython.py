@@ -13,5 +13,9 @@ print(client.service.subtracao(5, 2))
 print(client.service.subtracao(2, 2))
 print(client.service.subtracao(40, 15))
 
+print("Multiplicacao: ")
+print(client.service.multiplicacao(5, 2))
+print(client.service.multiplicacao(2, 2))
+print(client.service.multiplicacao(40, 15))
 
 
