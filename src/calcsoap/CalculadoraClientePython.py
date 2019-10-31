@@ -8,5 +8,10 @@ print(client.service.soma(5, 2))
 print(client.service.soma(2, 2))
 print(client.service.soma(40, 15))
 
+print("Subtracao: ")
+print(client.service.subtracao(5, 2))
+print(client.service.subtracao(2, 2))
+print(client.service.subtracao(40, 15))
+
 
 
