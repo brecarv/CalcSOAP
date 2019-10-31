@@ -3,8 +3,8 @@ package calcsoap;
 import javax.jws.WebService;
 
 
-@WebService(endpointInterface = "calcsoap.CalculadoraServer")
-public class CalculadoraServerImpl implements CalculadoraServer {
+@WebService(endpointInterface = "calcsoap.CalculadoraServidorInterface")
+public class CalculadoraServidor implements CalculadoraServidorInterface {
 
     public int soma(int num1, int num2) {
         return num1 + num2;

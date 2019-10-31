@@ -7,7 +7,7 @@ import javax.jws.soap.SOAPBinding.Style;
 
 @WebService
 @SOAPBinding(style = Style.RPC)
-public interface CalculadoraServer {
+public interface CalculadoraServidorInterface {
     @WebMethod
     int soma(int num1, int num2);
 

@@ -1,0 +1,24 @@
+import zeep
+
+wsdl = 'http://127.0.0.1:9000/calcsoap?wsdl'
+client = zeep.Client(wsdl=wsdl)
+
+print("Soma: ")
+print(client.service.soma(5, 2))
+print(client.service.soma(2, 2))
+print(client.service.soma(40, 15))
+
+print("Subtracao: ")
+print(client.service.subtracao(5, 2))
+print(client.service.subtracao(2, 2))
+print(client.service.subtracao(40, 15))
+
+print("Multiplicacao: ")
+print(client.service.multiplicacao(5, 2))
+print(client.service.multiplicacao(2, 2))
+print(client.service.multiplicacao(40, 15))
+
+print("Divisao: ")
+print(client.service.divisao(5, 2))
+print(client.service.divisao(2, 2))
+print(client.service.divisao(40, 15))
