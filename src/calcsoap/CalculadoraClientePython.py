@@ -18,4 +18,7 @@ print(client.service.multiplicacao(5, 2))
 print(client.service.multiplicacao(2, 2))
 print(client.service.multiplicacao(40, 15))
 
-
+print("Divisao: ")
+print(client.service.divisao(5, 2))
+print(client.service.divisao(2, 2))
+print(client.service.divisao(40, 15))
